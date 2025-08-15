@@ -20,7 +20,13 @@ Cara mempublikasikan atau Share ke teman/pacar kalian :
 contoh Miko-Ard.github.io
 Deskripsi tidak usah. selanjutnya Klik create repository (warna hijau)
 
-5.Klik Add file > upload files > choose your file > pilih semua folder isi galaxy love atau klik folder galaxy love > klik ok.
+5.Buka folder sebelumnya,klik kanan dan buka terminal/cmd . ketik
+  git init
+  git add .
+  git commit -m "first"
+  git remote add origin (link repo github kamu)
+  git branch -M main
+  git push -u origin main
 
 6.Sekarang coba tes dengan memasukkan link nama repository kamu
 contoh Miko-Ard.github.io
